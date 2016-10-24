@@ -3,14 +3,14 @@
 #
 #
 #
-# Created by Madhumitha Senthilvel, 29 Sept 2016
+# Created by loopyunicorn, 29 Sept 2016
 #
 #Reference: https://www.youtube.com/watch?v=v30XjzzeAS4
 
 import cv2
 import numpy as np
 
-capture= cv2.VideoCapture(0)                    #0 for webcam. 
+capture= cv2.VideoCapture(0)                    #0 for ZED cam 
 print('Press Esc key for exit')
 #open loop while cam is connected
 while (capture.isOpened()):
