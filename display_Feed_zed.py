@@ -20,14 +20,8 @@ while (capture.isOpened()):
     #BGR to grayscale conversion
     img2=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)   #Convert color to gray scale
     cv2.imshow('black & white',img2)            #display grayscale image
-    
-    
     k=cv2.waitKey(10)                           # Press esc for exit
     if k==27:
         break
-    
 capture.release()
 cv2.destroyAllWindows()
-
-
-
